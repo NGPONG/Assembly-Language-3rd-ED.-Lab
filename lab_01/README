@@ -1,0 +1,11 @@
+Report
+  1. 本实验重要用于熟悉 debug 的命令和 debug 的安装方式
+
+Config
+  1. 安装 DOSBox ( 建议放在 C 盘，且文件路径尽量保持简洁 )
+  2. 解压 [DEBUG.zip] 并将文件置于 DOSBox 目录下 
+  3. 运行 DOSBox
+  4. 输入 mount c c:\
+  5. 输入 c:
+  6. 输入 cd DOSBox ( DOSBox安装目录，也是 debug.exe 所存放的目录 )
+  7. 输入 debug
