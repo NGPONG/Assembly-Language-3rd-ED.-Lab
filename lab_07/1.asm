@@ -66,9 +66,9 @@ start:
   mov es:[si].C,dl
 
   ; 人均收入
-  mov ax,[bx].84 ; 低8位
-  mov dx,[bx].86 ; 高8位
-  mov bp,[bx].84 ; 除数
+  mov ax,[bx].84  ; 低8位
+  mov dx,[bx].86  ; 高8位
+  mov bp,[bx].168 ; 除数
   div bp
   mov es:[si].D,ax
 
