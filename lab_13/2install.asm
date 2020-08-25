@@ -22,9 +22,11 @@ start: mov ax,cs
        mov ax,4c00H
        int 21H
 
-; @brief: Simulate the loop command
-; @cx   : loop count
-; @bx   : address of the Restore offset
+;---------------------------------------+
+; @brief: Simulate the loop command     |
+; @cx   : loop count                    |
+; @bx   : address of the Restore offset |
+;---------------------------------------+
    lp: push bp
        mov bp,sp
        dec cx
